@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // **** (1) createStore 와 루트 리듀서 불러오기
 import { createStore } from 'redux';
-import rootReducer from './store/modules';
+import rootReducer from './store/modules/Index';
 // **** (4) Provider 불러오기
 import { Provider } from 'react-redux';
 

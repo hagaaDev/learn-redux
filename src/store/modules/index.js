@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import counter from './counter';
+import counter from './Counter';
 
 // ** combineReducers 로 리듀서 합치기
 
