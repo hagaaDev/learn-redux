@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 import counter from './Counter';
+import waiting from './waiting'; // **** 불러오기
 
 // ** combineReducers 로 리듀서 합치기
 
@@ -10,7 +11,7 @@ import counter from './Counter';
 
 export default combineReducers({
   counter,
-  // 다른 리듀서를 만들게되면 여기에 넣어줌..
+  waiting, // **** 추가
 });
 
 /* 
